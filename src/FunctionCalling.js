@@ -133,7 +133,7 @@ const run = async (input) => {
             }
             // messageがfunction_callを含まない場合は回答を表示
         } else {
-            console.log("anser", response.data.choices[0].message.content.trim());
+            console.log("answer", response.data.choices[0].message.content.trim());
             break;
         }
     }

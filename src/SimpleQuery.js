@@ -6,12 +6,12 @@ import readline from 'readline';
 dotenv.config();
 
 /**
- * gpt-3.5モデルに単発の問い合わせをする
+ * gpt-4o-miniモデルに単発の問い合わせをする
  * @param query 問い合わせ内容
  */
 export const run = async (query) => {
     // LLMの準備
-    const llm = new OpenAI({modelName: "gpt-3.5-turbo", temperature: 0.9});
+    const llm = new OpenAI({modelName: "gpt-4o-mini", temperature: 0.9});
 
     // 入力内容を日本語に翻訳
     const res = await llm.call(

@@ -11,7 +11,7 @@ dotenv.config();
  */
 export const run = async (query) => {
     // LLMの準備
-    const llm = new OpenAI({modelName: "gpt-3.5-turbo", temperature: 0.9});
+    const llm = new OpenAI({modelName: "gpt-4o-mini", temperature: 0.9});
 
     // 入力内容を日本語に翻訳
     const res = await llm.call(

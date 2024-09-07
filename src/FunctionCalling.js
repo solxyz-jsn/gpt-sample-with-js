@@ -45,7 +45,7 @@ const functions = [
  * OpenAIの使用モデル
  * @type {string}
  */
-const MODEL_NAME = "gpt-3.5-turbo-16k-0613"
+const MODEL_NAME = "gpt-4o"
 
 // 環境変数の読み込み
 dotenv.config();

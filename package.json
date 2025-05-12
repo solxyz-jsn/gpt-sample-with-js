@@ -7,17 +7,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.3.1",
-    "faiss-node": "^0.2.2",
-    "google-search-results-nodejs": "^2.1.0",
-    "langchain": "^0.0.105",
-    "openai": "^3.3.0",
-    "serpapi": "^1.1.1",
-    "typescript": "^5.1.6"
+    "@azure/identity": "^4.9.1",
+    "@langchain/community": "^0.3.42",
+    "dotenv": "^16.5.0",
+    "faiss-node": "^0.5.1",
+    "langchain": "^0.3.24",
+    "openai": "^4.96.2",
+    "serpapi": "^2.1.0",
+    "typescript": "^5.8.3"
   },
   "devDependencies": {
-    "@types/jsdom": "^21.1.1",
-    "jsdom": "^22.1.0",
-    "node-fetch": "^3.3.1"
+    "@types/jsdom": "^21.1.7",
+    "jsdom": "^26.1.0",
+    "node-fetch": "^3.3.2"
   }
 }

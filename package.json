@@ -10,7 +10,7 @@
     "dotenv": "^16.3.1",
     "faiss-node": "^0.2.2",
     "google-search-results-nodejs": "^2.1.0",
-    "langchain": "^0.0.105",
+    "langchain": "^1.2.3",
     "openai": "^3.3.0",
     "serpapi": "^1.1.1",
     "typescript": "^5.1.6"
